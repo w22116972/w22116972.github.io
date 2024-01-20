@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #5f6368;
+}
+.header {
+  background: #fff;
+  border-bottom: 1px solid #bdc1c6;
+  box-shadow: rgba(99, 99, 99, 0.3) 0 2px 8px 0;
+  position: fixed;
+  z-index: 998;
+  top: 0;
+  width: 100%;
+}
+.home {
+  display: flex;
+  height: 66px;
+  align-items: center;
+  cursor: default;
+}
+.home h1 {
+  font-size: 20px;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  height: 66px;
+  align-items: center;
+  justify-content: flex-end;
+  font: 400 14px/16px Google Sans,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+}
+.menu li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.menu li a {
+  color: #5f6368;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.menu li a:hover {
+  color: #1a73e8;
+}
+.menu li .active {
+  color: #1a73e8;
+}
+.height-66px{
+  height: 66px;
+}
