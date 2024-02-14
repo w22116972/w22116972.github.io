@@ -25,3 +25,6 @@ Technical articles has several topics:
   - Format
     - PPP
     - Software Design Document
+### Todo
+
+- [SEO](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=zh-tw)
